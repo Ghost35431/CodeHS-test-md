@@ -107,18 +107,15 @@ function createTitle() {
     titleEl.className = "title";
     var titleText = document.createElement("p");
     titleText.innerHTML ="<h2>Support Ticket</h1><hr>" +
-    "<br><b>Open Date:</b> <input placeholder=\"02/14/2024\" id=\"od\" type=date>" +
-    "<br><br><b>Close Date:</b> <input type=\"date\">" +
+    "<br><b>Open Date:</b> <input type = date>" +
+    "<br><br><b>Close Date:</b> <input type = date>" +
     "<br><br><b>IT Professional:</b> <input placeholder=\"Mylz McCullough\"type=\"text\">" +
-    "<br><br><b>Subject:</b> Bad Signal Strength" +
-    "<br><br><b>Request Detail:</b> Hello, the sales department " +
-    "is having a hard time finding a good signal from our " + 
-    "wireless access point. It seems to be working " +
-    "fine for the marketing department who is in the same " +
-    "room as the Wireless Access Point. The sales department is in a different " +
-    "room. Please help! Thank you" +
-    "<br><br><b>Summary of Solution: </b>" +
-    title;
+    "<br><br><b>Subject:</b> Interference" +
+    "<br><br><b>Request Detail:</b> Good afternoon! We are experiencing " + 
+    "random interference on our wireless connection. We have noticed that " + 
+    "it slows down a lot when the outside door is closed and stops all" + 
+    "together when we use the microwave. We appreciate your help. Thank you." +
+    "<br><br><b>Summary of Solution: </b>" + title;
     titleEl.appendChild(titleText);
     row.appendChild(titleEl);
     return row;
