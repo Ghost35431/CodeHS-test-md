@@ -109,7 +109,7 @@ function createTitle() {
     titleText.innerHTML ="<h2>Support Ticket</h1><hr>" +
     "<br><b>Open Date:</b> <input type = date>" +
     "<br><br><b>Close Date:</b> <input type = date>" +
-    "<br><br><b>IT Professional:</b> <input placeholder=\"Mylz McCullough\"type=\"text\">" +
+    "<br><br><b>IT Professional:</b> <input type = text>" +
     "<br><br><b>Subject:</b> Interference" +
     "<br><br><b>Request Detail:</b> Good afternoon! We are experiencing " + 
     "random interference on our wireless connection. We have noticed that " + 
